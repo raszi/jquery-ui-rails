@@ -95,7 +95,7 @@ $.widget( "ui.autocomplete", {
 		this.isNewMenu = true;
 
 		this._addClass( "ui-autocomplete-input" );
-		this.element.attr( "autocomplete", "nope" );
+		this.element.attr( "autocomplete", "new-password" );
 
 		this._on( this.element, {
 			keydown: function( event ) {
